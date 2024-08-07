@@ -1,3 +1,6 @@
+# Tiny-farm
+Questo è un progetto che ho sviluppato per il corso di laboratorio 2 all'università, il progetto consiste nell'implementazione di multithreading e comunicazione fra processi per ottimizzare un calcolo da effettuare su più file.
+
 # client 
 Il client fai uso di multithreading per poter rendere piu veloce la trasmissione dei dati , per rendere piu semplice la comunicazione  e' stata adottata la tecnica  produttori consumatori,
 il thread principale (_masterworker_) e' il produttore mentre i thread (_worker_) sono i lettori.
